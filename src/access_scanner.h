@@ -50,6 +50,7 @@ private:
     std::string alogPath;
     std::atomic<bool> available;
     uint8_t residentRatioThreshold;
+    uint64_t maxStoredItems;
 };
 
 #endif  // SRC_ACCESS_SCANNER_H_
